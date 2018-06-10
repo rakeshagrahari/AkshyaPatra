@@ -5,7 +5,6 @@ phases:
     commands:
       # Upgrade AWS CLI to the latest version
       - pip install --upgrade awscli
-  pre_build:
   build:
     commands:
       - echo Build started on `date`
